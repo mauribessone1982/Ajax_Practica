@@ -12,7 +12,7 @@ $(function(){
             url:"suma.php",
             type:"post",
             beforeSend:function(){
-               console.log("se esta procesandotu petición");
+               console.log("Se esta procesandotu petición");
             }
 
       })
