@@ -1,10 +1,3 @@
-const { type } = require("jquery");
-
-$('#boton').on('click', function() {
-  $('#a-content').load('https://norfipc.com/include/ajax');
-  $('#boton').hide();
-})
-
 $(function(){
    $('#ejecutar').click(function(){
       sumar($('#valor1').val(),$('#valor2').val());
