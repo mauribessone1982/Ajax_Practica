@@ -1,3 +1,9 @@
+$(document).ready(function(){
+   $("button").click(function(){
+     $("#div1").load("demo_test.txt");
+   });
+ });
+
 $(function(){
    $('#ejecutar').click(function(){
       sumar($('#valor1').val(),$('#valor2').val());
